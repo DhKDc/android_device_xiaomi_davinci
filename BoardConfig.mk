@@ -39,7 +39,7 @@ TARGET_TAP_TO_WAKE_EVENT_NODE := "/dev/input/event2"
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 
 # Vendor init
-TARGET_INIT_VENDOR_LIB := libinit_davinci
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_davinci
 TARGET_RECOVERY_DEVICE_MODULES := libinit_davinci
 
 # Inherit from the proprietary version
