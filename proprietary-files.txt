@@ -21,7 +21,6 @@ vendor/lib/libacdbrtac.so
 vendor/lib/rfsa/adsp/capi_v2_aptX_CLHDAD_Encoder.so
 vendor/lib/rfsa/adsp/libarcsoft_dualcam_refocus_skel.so
 vendor/lib/rfsa/adsp/libdirac-capiv2.so
-vendor/lib/rfsa/adsp/libhexagon_nn_skel_secondary.so
 vendor/lib/rfsa/adsp/libsns_low_lat_stream_skel.so
 vendor/lib/rfsa/adsp/libSuperSensor_skel.so
 vendor/lib/rfsa/adsp/libVDHexagonSuperPhoto_skel.so
@@ -31,7 +30,6 @@ vendor/lib/rfsa/adsp/misound_res.bin
 
 # Audio
 vendor/lib64/hw/audio.primary.sm6150.so
-vendor/lib64/libtinycompress_vendor.so
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioalsa.so
@@ -40,7 +38,6 @@ vendor/lib64/libaudioparsers.so
 vendor/lib64/libaudioroute_ext.so
 vendor/lib64/libqtigef.so
 vendor/lib/hw/audio.primary.sm6150.so
-vendor/lib/libtinycompress_vendor.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
@@ -100,7 +97,6 @@ vendor/etc/camera/female_icon.png
 vendor/etc/camera/golden_rear_dc_cal_wu.bin
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/libalfpc_tuning.bin
-vendor/etc/camera/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/etc/camera/libsnpe_dsp_v66_domains_v2_skel.so
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
@@ -240,7 +236,6 @@ vendor/lib64/libcamera_scene.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdalgov8.so
 vendor/lib64/libcamxfdengine.so
-vendor/lib64/libcamxlocalhistogramalgo.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
@@ -301,13 +296,11 @@ vendor/firmware/goodix_gt9886_limit_f10_second.tporder
 vendor/lib64/hw/fingerprint.goodix_fod.so
 vendor/lib64/libgf_hal.so
 vendor/lib64/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib64/vendor.qti.hardware.biometrics.face@1.0.so
 vendor/lib64/vendor.qti.hardware.fingerprint@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
 vendor/lib/hw/fingerprint.goodix_fod.so
 vendor/lib/libgf_hal.so
 vendor/lib/vendor.goodix.hardware.biometrics.fingerprint@2.1.so
-vendor/lib/vendor.qti.hardware.biometrics.face@1.0.so
 vendor/lib/vendor.qti.hardware.fingerprint@1.0.so
 
 # NFC
