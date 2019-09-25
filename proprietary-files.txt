@@ -97,7 +97,6 @@ vendor/etc/camera/female_icon.png
 vendor/etc/camera/golden_rear_dc_cal_wu.bin
 vendor/etc/camera/lf_facerank_model.bin
 vendor/etc/camera/libalfpc_tuning.bin
-vendor/etc/camera/libsnpe_dsp_v65_domains_v2_skel.so
 vendor/etc/camera/libsnpe_dsp_v66_domains_v2_skel.so
 vendor/etc/camera/male_bg.png
 vendor/etc/camera/male_icon.png
@@ -237,7 +236,6 @@ vendor/lib64/libcamera_scene.so
 vendor/lib64/libcamxfdalgov7.so
 vendor/lib64/libcamxfdalgov8.so
 vendor/lib64/libcamxfdengine.so
-vendor/lib64/libcamxlocalhistogramalgo.so
 vendor/lib64/libcamxstatscore.so
 vendor/lib64/libcamxswprocessalgo.so
 vendor/lib64/libcamxtintlessalgo.so
