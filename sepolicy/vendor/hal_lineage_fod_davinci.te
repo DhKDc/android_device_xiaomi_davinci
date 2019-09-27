@@ -1,0 +1,14 @@
+type hal_lineage_fod_davinci, domain;
+hal_server_domain(hal_lineage_fod_davinci, hal_lineage_fod)
+
+type hal_lineage_fod_davinci_exec, exec_type, vendor_file_type, file_type;
+init_daemon_domain(hal_lineage_fod_davinci)
+
+# Allow access to the HALs
+hal_client_domain(hal_lineage_fod_davinci, hal_fingerprint)
+
+# Allow binder communication with hal_fingerprint_davinci
+binder_call(hal_lineage_fod_davinci, hal_fingerprint_default)
+
+# Allow hal_lineage_fod_davinci to read and write to sysfs_fod
+allow hal_lineage_fod_davinci sysfs_fod:file rw_file_perms;
