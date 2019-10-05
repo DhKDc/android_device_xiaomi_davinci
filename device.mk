@@ -68,6 +68,7 @@ PRODUCT_COPY_FILES += \
 
 # Init scripts
 PRODUCT_PACKAGES += \
+    init.davinci.rc \
     init.target.rc
 
 # NFC
